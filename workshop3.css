@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width: 40%;
+    float:right;
+    background-color: darkseagreen;
+    color: aliceblue;
+    height:100vh;
+}
+.main h1{
+    padding-bottom: 100px;
+    font-weight:3000;
+    font-size: 50px;
+    font-family:Nunito;
+    padding-left: 1.4em;
+    padding-top: 80px;
+}
+.main h2{
+    font-weight: 800;
+    font-family:Nunito;
+    padding-left: 3em;
+}
+img{
+    width: 60%;
+    height: 100vh;
+    float:left;
+}
+@media(max-width:700px){
+    img{
+        width:60%;
+    }
+    .main{
+        width:40%;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    .main h2{
+       font-size:20px;
+    }
+}
+

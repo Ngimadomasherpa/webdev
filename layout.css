@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+.flex-container{
+    width:100%;
+    background-color: rgb(180,179,245);
+    display: flex;
+    justify-content:flex-start;
+
+}
+.flex-item{
+    border: 1px solid #ddd;
+    width: 200px;
+    height: auto;
+    margin:10px;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+    text-decoration: underline;
+}
+.flex-item p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: azure;
+}
